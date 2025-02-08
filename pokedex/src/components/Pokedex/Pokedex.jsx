@@ -7,11 +7,11 @@ import Search from "../Search/Search";
 import './Pokedex.css'
 
 function Pokedex(){
-     console.log("c")
+     
     return (
         <div className="pokedex-wrapper">
         
-        <Search />
+       
         <PokemonList />
         </div>
     )
